@@ -25,7 +25,7 @@ namespace NzbDrone.Core.Indexers.Rarbg
             MinimumSeeders = IndexerDefaults.MINIMUM_SEEDERS;
         }
 
-        [FieldDefinition(0, Label = "API URL", HelpText = "URL to Rarbg api, not the website.")]
+        [FieldDefinition(0, Label = "API URL", HelpText = "URL to the RARBG API, not the website.")]
         public string BaseUrl { get; set; }
 
         [FieldDefinition(1, Type = FieldType.Checkbox, Label = "Ranked Only", HelpText = "Only include ranked results.")]
